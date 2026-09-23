@@ -66,9 +66,6 @@ docs/screenshots/
 | soft remove / restore / hard delete | shipping |
 | CloudKit / iCloud | parked |
 | TestFlight / App Store | parked |
-| physical device | needs signing in Xcode |
-
-real app. still shipping. not a tutorial clone.
 
 ## license
 
