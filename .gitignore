@@ -1,0 +1,30 @@
+# Xcode / SPM
+DerivedData/
+.build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Local publish / smoke junk
+_smoke_artifacts/
+_publish/
+**/quarantined-store/
+*.store
+*.store-shm
+*.store-wal
+
+# Secrets / local
+.env
+*.pem

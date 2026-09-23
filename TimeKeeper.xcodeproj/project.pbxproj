@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CCD8D6A8702D4F661C4F861 /* WatchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E83091B35514043320CD7 /* WatchCardView.swift */; };
+		13229FEE7C9E57BDF7E51D23 /* WatchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A62C25E0FCDF2513F46C71 /* WatchDetailView.swift */; };
+		135A9B6B1F8C452D18A6584D /* WatchPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA332720084C2BC8757EA1 /* WatchPhotoView.swift */; };
+		1DBB81FBA508A60F8F1A5EA4 /* WatchStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3369F6790AD6EA8139DC69D /* WatchStatus.swift */; };
+		24AD46775C19D32D3FF9C198 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC06150B01CB8A2A1AC8A6 /* PhotoStore.swift */; };
+		2D6678972E938172BD787591 /* BackupMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD9F5AAF9EC519722C3BF6 /* BackupMenu.swift */; };
+		3C2D430E7F19AAE3880BF8FD /* TimeKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418ACB6CBF8C866ED2CC6AE6 /* TimeKeeperApp.swift */; };
+		3DA25B7BD75B4F7A9180E830 /* WatchFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E40AD736A93C4C861CE38A6 /* WatchFormatting.swift */; };
+		3E4E8562772CA78736C0517D /* snowflake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3B83B0FCBADBD014729891D /* snowflake.jpg */; };
+		50CF6B282ADE26272E7CE9EC /* WatchFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2824E865C1D85F3B9C26263 /* WatchFormView.swift */; };
+		56F92E4683CF28B69D716110 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA89DC0F19D32BB17DEA19B /* Theme.swift */; };
+		5B7A8F8A2E0FA7EB5D92E041 /* WatchGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4773CF2B4B0C4672038730E8 /* WatchGridView.swift */; };
+		5DE5FFE116F579958CC191D7 /* black-bay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3A2925D0CB9939446D88AC2 /* black-bay.jpg */; };
+		72D148CE3025B3E73867C7B0 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C1C70CD49009A383520BD /* SeedData.swift */; };
+		9B68A76A6C9A60B03D33164A /* reverso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6FBB7A980DBCA7CC8DBE558 /* reverso.jpg */; };
+		A0B25575B3F21978185D9B41 /* santos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C2B67D9E165A444422228CA /* santos.jpg */; };
+		A40B37D0E8501361B0467B96 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B78BE15E9E044226A32DA9 /* Watch.swift */; };
+		A6D24453641778242D989209 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752232C2EF8A934DC85690E6 /* EmptyStateView.swift */; };
+		A8986EC5D71975EBF463DE6C /* submariner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC4DDDF0663B83816E844B97 /* submariner.jpg */; };
+		B40C5E3D54EB99FDCDB00F0E /* SmokeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A18DB968E7BED42F26A46 /* SmokeTest.swift */; };
+		B5ABD6F3E3D30384ED08F527 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7343C52EC62F73D901AC65 /* ContentView.swift */; };
+		B97597807ADF523638A8B6EF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E22FA92D9A43796EDA6DF /* OnboardingView.swift */; };
+		CBFA12B317AA69A8B9BBDA07 /* speedmaster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A719C5F4F0DCB32F9D2D778 /* speedmaster.jpg */; };
+		D65797F0D83BE094C5B58F23 /* ExportImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD7DE2686781EAF72EF06B /* ExportImport.swift */; };
+		DCA7836D77421A5FBE2C4D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920934A077639D28FBE6B5AD /* Assets.xcassets */; };
+		F11E1DE5E87FE990ADE14C5F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91968A65DFA288857FAC61E /* Persistence.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E40AD736A93C4C861CE38A6 /* WatchFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFormatting.swift; sourceTree = "<group>"; };
+		1C4C1C70CD49009A383520BD /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
+		1EA89DC0F19D32BB17DEA19B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2F7343C52EC62F73D901AC65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		418ACB6CBF8C866ED2CC6AE6 /* TimeKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeperApp.swift; sourceTree = "<group>"; };
+		4773CF2B4B0C4672038730E8 /* WatchGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchGridView.swift; sourceTree = "<group>"; };
+		6A719C5F4F0DCB32F9D2D778 /* speedmaster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speedmaster.jpg; sourceTree = "<group>"; };
+		752232C2EF8A934DC85690E6 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		78A62C25E0FCDF2513F46C71 /* WatchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDetailView.swift; sourceTree = "<group>"; };
+		7C0E83091B35514043320CD7 /* WatchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCardView.swift; sourceTree = "<group>"; };
+		7C2B67D9E165A444422228CA /* santos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santos.jpg; sourceTree = "<group>"; };
+		920934A077639D28FBE6B5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4DC06150B01CB8A2A1AC8A6 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		A91968A65DFA288857FAC61E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B3369F6790AD6EA8139DC69D /* WatchStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchStatus.swift; sourceTree = "<group>"; };
+		C3B83B0FCBADBD014729891D /* snowflake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snowflake.jpg; sourceTree = "<group>"; };
+		C9CD7DE2686781EAF72EF06B /* ExportImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportImport.swift; sourceTree = "<group>"; };
+		CE5A18DB968E7BED42F26A46 /* SmokeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeTest.swift; sourceTree = "<group>"; };
+		D2824E865C1D85F3B9C26263 /* WatchFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFormView.swift; sourceTree = "<group>"; };
+		D3A2925D0CB9939446D88AC2 /* black-bay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-bay.jpg"; sourceTree = "<group>"; };
+		D7B78BE15E9E044226A32DA9 /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		E6FBB7A980DBCA7CC8DBE558 /* reverso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reverso.jpg; sourceTree = "<group>"; };
+		F66E22FA92D9A43796EDA6DF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F766C10929FB6044FDF77FC9 /* TimeKeeper.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TimeKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CD9F5AAF9EC519722C3BF6 /* BackupMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupMenu.swift; sourceTree = "<group>"; };
+		FC4DDDF0663B83816E844B97 /* submariner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = submariner.jpg; sourceTree = "<group>"; };
+		FCBA332720084C2BC8757EA1 /* WatchPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPhotoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		089800B18678F04541D27B94 /* TimeKeeperApp */ = {
+			isa = PBXGroup;
+			children = (
+				0CB6AEBBEB6D401C404F4659 /* Resources */,
+				BC085C45B3AEEDE639C76A11 /* Sources */,
+			);
+			path = TimeKeeperApp;
+			sourceTree = "<group>";
+		};
+		0CB6AEBBEB6D401C404F4659 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63FF074586F53A63E370E0E1 /* SeedPhotos */,
+				920934A077639D28FBE6B5AD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31F1352FB2E952B2EB3352C3 /* TimeKeeperApp */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD9F5AAF9EC519722C3BF6 /* BackupMenu.swift */,
+				2F7343C52EC62F73D901AC65 /* ContentView.swift */,
+				752232C2EF8A934DC85690E6 /* EmptyStateView.swift */,
+				F66E22FA92D9A43796EDA6DF /* OnboardingView.swift */,
+				1EA89DC0F19D32BB17DEA19B /* Theme.swift */,
+				418ACB6CBF8C866ED2CC6AE6 /* TimeKeeperApp.swift */,
+				7C0E83091B35514043320CD7 /* WatchCardView.swift */,
+				78A62C25E0FCDF2513F46C71 /* WatchDetailView.swift */,
+				D2824E865C1D85F3B9C26263 /* WatchFormView.swift */,
+				4773CF2B4B0C4672038730E8 /* WatchGridView.swift */,
+				FCBA332720084C2BC8757EA1 /* WatchPhotoView.swift */,
+			);
+			path = TimeKeeperApp;
+			sourceTree = "<group>";
+		};
+		63FF074586F53A63E370E0E1 /* SeedPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				D3A2925D0CB9939446D88AC2 /* black-bay.jpg */,
+				E6FBB7A980DBCA7CC8DBE558 /* reverso.jpg */,
+				7C2B67D9E165A444422228CA /* santos.jpg */,
+				C3B83B0FCBADBD014729891D /* snowflake.jpg */,
+				6A719C5F4F0DCB32F9D2D778 /* speedmaster.jpg */,
+				FC4DDDF0663B83816E844B97 /* submariner.jpg */,
+			);
+			path = SeedPhotos;
+			sourceTree = "<group>";
+		};
+		6E5CD939387DCCE6D1AFD8FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F766C10929FB6044FDF77FC9 /* TimeKeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70DE8D601A73F82D4681B5F2 /* TimeKeeperCore */ = {
+			isa = PBXGroup;
+			children = (
+				C9CD7DE2686781EAF72EF06B /* ExportImport.swift */,
+				A91968A65DFA288857FAC61E /* Persistence.swift */,
+				A4DC06150B01CB8A2A1AC8A6 /* PhotoStore.swift */,
+				1C4C1C70CD49009A383520BD /* SeedData.swift */,
+				CE5A18DB968E7BED42F26A46 /* SmokeTest.swift */,
+				D7B78BE15E9E044226A32DA9 /* Watch.swift */,
+				0E40AD736A93C4C861CE38A6 /* WatchFormatting.swift */,
+				B3369F6790AD6EA8139DC69D /* WatchStatus.swift */,
+			);
+			path = TimeKeeperCore;
+			sourceTree = "<group>";
+		};
+		A8DE67D1213CF63F1883F7D8 = {
+			isa = PBXGroup;
+			children = (
+				089800B18678F04541D27B94 /* TimeKeeperApp */,
+				6E5CD939387DCCE6D1AFD8FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC085C45B3AEEDE639C76A11 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				31F1352FB2E952B2EB3352C3 /* TimeKeeperApp */,
+				70DE8D601A73F82D4681B5F2 /* TimeKeeperCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF58C62E29FF3FC8D69EA40 /* TimeKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711C9C07A8A55276ACCAEE8E /* Build configuration list for PBXNativeTarget "TimeKeeper" */;
+			buildPhases = (
+				E3E26557277AEBF3492FB186 /* Sources */,
+				93DB94511F2E9AEB602B7E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeKeeper;
+			packageProductDependencies = (
+			);
+			productName = TimeKeeper;
+			productReference = F766C10929FB6044FDF77FC9 /* TimeKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B27710043117EDC34437D683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = A70C3804D7589B31ADD54D15 /* Build configuration list for PBXProject "TimeKeeper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A8DE67D1213CF63F1883F7D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF58C62E29FF3FC8D69EA40 /* TimeKeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93DB94511F2E9AEB602B7E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA7836D77421A5FBE2C4D5D /* Assets.xcassets in Resources */,
+				5DE5FFE116F579958CC191D7 /* black-bay.jpg in Resources */,
+				9B68A76A6C9A60B03D33164A /* reverso.jpg in Resources */,
+				A0B25575B3F21978185D9B41 /* santos.jpg in Resources */,
+				3E4E8562772CA78736C0517D /* snowflake.jpg in Resources */,
+				CBFA12B317AA69A8B9BBDA07 /* speedmaster.jpg in Resources */,
+				A8986EC5D71975EBF463DE6C /* submariner.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3E26557277AEBF3492FB186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6678972E938172BD787591 /* BackupMenu.swift in Sources */,
+				B5ABD6F3E3D30384ED08F527 /* ContentView.swift in Sources */,
+				A6D24453641778242D989209 /* EmptyStateView.swift in Sources */,
+				D65797F0D83BE094C5B58F23 /* ExportImport.swift in Sources */,
+				B97597807ADF523638A8B6EF /* OnboardingView.swift in Sources */,
+				F11E1DE5E87FE990ADE14C5F /* Persistence.swift in Sources */,
+				24AD46775C19D32D3FF9C198 /* PhotoStore.swift in Sources */,
+				72D148CE3025B3E73867C7B0 /* SeedData.swift in Sources */,
+				B40C5E3D54EB99FDCDB00F0E /* SmokeTest.swift in Sources */,
+				56F92E4683CF28B69D716110 /* Theme.swift in Sources */,
+				3C2D430E7F19AAE3880BF8FD /* TimeKeeperApp.swift in Sources */,
+				A40B37D0E8501361B0467B96 /* Watch.swift in Sources */,
+				0CCD8D6A8702D4F661C4F861 /* WatchCardView.swift in Sources */,
+				13229FEE7C9E57BDF7E51D23 /* WatchDetailView.swift in Sources */,
+				50CF6B282ADE26272E7CE9EC /* WatchFormView.swift in Sources */,
+				3DA25B7BD75B4F7A9180E830 /* WatchFormatting.swift in Sources */,
+				5B7A8F8A2E0FA7EB5D92E041 /* WatchGridView.swift in Sources */,
+				135A9B6B1F8C452D18A6584D /* WatchPhotoView.swift in Sources */,
+				1DBB81FBA508A60F8F1A5EA4 /* WatchStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FBB9FADD84CAA520948D8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeKeeper;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.timekeeper;
+				PRODUCT_NAME = TimeKeeper;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D59C41B9CF498C41912F314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeKeeper;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "TimeKeeper needs photo access to attach watch images.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.timekeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		B62612642CB81B9364A8833A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeKeeper;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.timekeeper;
+				PRODUCT_NAME = TimeKeeper;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFA8D482EEF5B14A05A958A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeKeeper;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "TimeKeeper needs photo access to attach watch images.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.timekeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711C9C07A8A55276ACCAEE8E /* Build configuration list for PBXNativeTarget "TimeKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBB9FADD84CAA520948D8B2 /* Debug */,
+				B62612642CB81B9364A8833A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A70C3804D7589B31ADD54D15 /* Build configuration list for PBXProject "TimeKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA8D482EEF5B14A05A958A1 /* Debug */,
+				8D59C41B9CF498C41912F314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B27710043117EDC34437D683 /* Project object */;
+}

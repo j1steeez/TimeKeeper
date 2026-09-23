@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "exportedAt": "2026-09-23T03:50:00.000-07:00",
+  "watches": [
+    {
+      "id": "seed-rolex-submariner",
+      "brand": "Rolex",
+      "name": "Submariner Date",
+      "reference": "126610LN",
+      "status": "next",
+      "tier": "highEnd",
+      "priority": 5,
+      "priceTarget": 10250,
+      "pricePaid": null,
+      "soldPrice": null,
+      "currency": "USD",
+      "caseSize": "41mm",
+      "movement": "Calibre 3235",
+      "material": "Oystersteel",
+      "retailer": "",
+      "url": "",
+      "notes": "Ceramic bezel, black dial. Next up.",
+      "photoId": "submariner.jpg",
+      "isRemoved": false,
+      "removedAt": null,
+      "createdAt": "2026-08-23T12:00:00.000Z",
+      "updatedAt": "2026-09-20T12:00:00.000Z"
+    }
+  ]
+}
